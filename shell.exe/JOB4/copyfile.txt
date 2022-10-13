@@ -1,0 +1,6 @@
+total 12
+drwxr-xr-x  2 djamel djamel 4096 10 oct.  11:58 .
+drwxr-xr-x 12 djamel djamel 4096 10 oct.  10:14 ..
+-rwx------  1 djamel djamel   22 10 oct.  11:48 argument.sh
+-rw-r--r--  1 djamel djamel    0 10 oct.  11:59 copyfile.txt
+-rw-r--r--  1 djamel djamel    0 10 oct.  11:49 myfile.txt
