@@ -7,6 +7,10 @@ cat /home/djamel/shell.exe/JOB9/Shell_Userlist_origenal.csv | while read Id Pren
 do
 sudo userdel $Prenom-$Nom
 sudo groupdel $Prenom-$Nom
+done
+
+cat /home/djamel/shell.exe/JOB9/Shell_Userlist.csv | while read Id Prenom Nom Mdp Role
+do
 sudo useradd $Prenom-$Nom
         echo "$Prenom-$Nom:$Mdp" | sudo chpasswd
         sudo usermod -u "$Id" "$Prenom-$Nom"
